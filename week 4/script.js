@@ -1,0 +1,21 @@
+var name=Array();
+names[0]="Yaakov";
+names[1]="John";
+names[2]="Jen";
+names[3]="ason";
+names[4]="Paul";
+names[5]="frank";
+names[6]="larry";
+names[7]="paula";
+names[8]="laura";
+names[9]="jim";
+ for ( var i= 0; i < names.length;i++) { 
+    if(names[i].charArt(0)==='J' || names[i].chartArt(0)==='J')
+    {
+        console.log("Goodbye"+ names[i])
+    }
+    else{
+ console.log("Hello"+ names[i])
+}
+ }
+ 
